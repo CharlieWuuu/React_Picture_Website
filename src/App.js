@@ -10,10 +10,10 @@ function App() {
   return (
     <BrowserRouter basename="/React_Picture_Website">
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Homepage />}></Route>
-          <Route path="About" element={<About />}></Route>
-          <Route path="*" element={<Page404 />}></Route>
+        <Route exact path="/" element={<Layout />}>
+          <Route exact path="Index" element={<Homepage />}></Route>
+          <Route exact path="About" element={<About />}></Route>
+          <Route exact path="*" element={<Page404 />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
