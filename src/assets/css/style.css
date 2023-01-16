@@ -134,4 +134,23 @@ nav ul li a {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5rem;
+}
+
+.Page404 {
+  width: 80%;
+  flex: 1;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+}
+.Page404 h4 {
+  font-size: 5rem;
+}
+.Page404 h6 {
+  font-size: 3rem;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

@@ -11,9 +11,7 @@ html, body {
 }
 
 #root{
-  // width: 100%;
   height: 100%;
-  // display: flex;
   > div{
     height: 100%;
     display: flex;
@@ -54,3 +52,4 @@ ul {
 @import "./footer";
 @import "./picture";
 @import "./about";
+@import "./page404";

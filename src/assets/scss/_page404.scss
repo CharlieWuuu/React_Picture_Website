@@ -1,0 +1,18 @@
+.Page404{
+	width: 80%;
+	flex: 1;
+	margin: 0 auto;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: gray;
+	h4{
+		font-size: 5rem;
+	}
+	h6{
+		font-size: 3rem;
+		font-weight: 500;
+	}
+}
