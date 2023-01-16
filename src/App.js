@@ -8,9 +8,9 @@ import './assets/css/style.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="React_Picture_Website">
       <Routes>
-        <Route path="React_Picture_Website" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Homepage />}></Route>
           <Route path="About" element={<About />}></Route>
           <Route path="*" element={<Page404 />}></Route>
