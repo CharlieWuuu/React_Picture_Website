@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Search from '../components/Search';
 import Picture from '../components/Picture';
-import Title from '../components/Title';
 
 const Homepage = () => {
   let [input, setInput] = useState('');
