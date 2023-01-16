@@ -21,6 +21,13 @@ const About = () => {
         當按下「更多」按鈕時，程式會將回傳的資料帶入，引出已帶入樣式的圖片。
         <br />
         <br />
+        此網頁的節點綁在HTML的Root上，以App.js引入。
+        <br />
+        共同元件寫在 Layout.js，包含 Navbar、Footer 等。
+        <br />
+        內容引入三個頁面（Homepage.js、About.js、Page404.js），用前端路由切換網址。
+        <br />
+        <br />
       </h5>
       <h5>
         2. SPA（單頁應用程式），動態渲染當前畫面，不會有重新跳轉的感覺。
